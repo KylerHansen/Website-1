@@ -1,0 +1,74 @@
+.loginsignup{background-color:#00FF01; border-left:1px solid; border-right:1px solid;}
+
+.content{
+	display:flex;
+	flex-direction:row;
+}
+.colA{
+	width:300px;
+	background-color:#F6F9F4;
+	padding-left:20px;
+}
+.colB{
+	width:100%;
+	background-color:#white;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+
+}
+.text{font-size:20px;}
+#submit{background-color:#00FF01; width:200px; height:50px; border: solid; font-size:20px; display:block; margin:auto;}
+#submit:hover{background-color:#000; color:white;}
+#email1,#email2{width:80%; height:22px;}
+#password, #password2{width:80%; height:22px;}
+#title{text-align:center;}
+#clickhere{text-align:center; font-size:17px;}
+#state{height:28px;}
+#forgot{text-align:center;}
+#box{height:22px;}
+.small{font-size:15px;}
+#pass_requirements{
+	display:none;
+	background:white;
+	color:black;
+	position:relative;
+	padding:0px;
+	margin-top:10px;
+}
+#pass_requirements p{
+	padding:10px 35px;
+	font-size:15px;
+	line-height:0px;
+}
+
+.valid{color:green;}
+.valid:before{position:relative; left:-60; content: "✔";}
+.invalid{color:red;}
+.invalid:before{position: relative; left:-20px; content: "*";}
+
+
+
+
+
+#confirm_psw{
+	display:none;
+	color:red;
+	font-size:15px;
+}
+#confirm_email{
+	display:none;
+	color:red;
+	font-size:15px;
+}
+.nomatch{
+	display:block;
+}
+
+
+
+.colC{
+	width:300px;
+	background-color:#F6F9F4;
+	padding-left:20px;
+}
